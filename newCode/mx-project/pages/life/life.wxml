@@ -1,0 +1,16 @@
+<view class="life-wrap clearfix">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgsArr}}">
+            <swiper-item>
+                <image src="{{item}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <map  class="map-wrap" bindmarkertap="markertap"></map>
+        <button bindtap="markertap">点击</button>
+        经度:{{latitude }} 纬度:{{longitude}}
+    <audio id="audioId" ></audio>
+   
+    <rich-text bindtap="richtap" nodes="{{nodes}}"></rich-text>
+   
+</view>

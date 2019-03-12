@@ -1,0 +1,39 @@
+{
+
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/life/life",
+   "pages/life/detail",
+    "pages/technology/skill"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小猴子",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+      "backgroundColor":"yellowgreen",
+      "color":"white",
+    "position":"bottom",
+      "list":[{
+          "pagePath": "pages/index/index",
+          "text":"首页"
+      },{
+          "pagePath": "pages/logs/logs",
+          "text": "日志"
+      },{
+          "pagePath": "pages/life/life",
+          "text":"生活"
+      },{
+          "pagePath": "pages/technology/skill",
+          "text": "技术"
+      }] 
+  },
+  "networkTimeout":{
+      "request": 10000,
+      "downloadFile": 10000
+  },
+  "debug":true
+}

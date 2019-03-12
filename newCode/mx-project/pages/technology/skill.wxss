@@ -1,0 +1,25 @@
+.skill-wrap{
+
+}
+
+.flex{
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap; /* flex-direction flex-wrap 的简写*/
+    flex-direction:row;   /* 主轴的方向：row,column,row-reverse,column-reverse  */
+    
+    justify-content:flex-start; /* 主轴的对齐方式： flex-start,flex-end,center,space-between,space-around*/
+    align-content:center; /* flex-start,flex-end,center,baseline,stretch多根轴线的对齐方式*/
+    align-items:center; /* 交叉轴的对齐方式：flex-start,flex-end,center,baseline,stretch */
+
+}
+.flex-item{
+    order:1;/* 排列顺序*/
+    flex-grow:1;/* 放大比例*/
+    flex-shrink:1; /* 缩小比例*/
+    flex-basis:auto; /* */
+    flex:none; /* flex-grow,*/
+
+    
+}

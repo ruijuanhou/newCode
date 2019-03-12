@@ -1,0 +1,10 @@
+<view class="container">
+    <view class="first-wrap">
+        <block>{{title}}</block>
+        <!-- <block wx:for="{{[1,2,3]}}">
+            <view>{{ index }}:{{item}}</view>
+        </block> -->
+        <button bindtap="markertap">点击</button>
+        <map wx:longitude="{{longitude}}" wx:latitude="{{latitude}}"></map>
+    </view>
+</view>
